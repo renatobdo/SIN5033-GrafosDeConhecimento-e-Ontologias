@@ -6,4 +6,4 @@ Python instalado
 PIP
 
 # Vídeo DEMONSTRAÇÂO
-
+https://youtu.be/PRbrt2dY-tc 
