@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://example.org/sintoma#"
+     xml:base="http://example.org/sintoma"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+    <owl:Ontology rdf:about="http://example.org/sintoma"/>
+
+    <owl:Class rdf:about="http://example.org/sintoma#Sintoma">
+        <rdfs:label>Sintoma</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://example.org/sintoma#Febre">
+        <rdfs:subClassOf rdf:resource="http://example.org/sintoma#Sintoma"/>
+        <rdfs:label>Febre</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://example.org/sintoma#DorDeCabeca">
+        <rdfs:subClassOf rdf:resource="http://example.org/sintoma#Sintoma"/>
+        <rdfs:label>Dor de cabeça</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://example.org/sintoma#Dengue">
+        <rdfs:subClassOf rdf:resource="http://example.org/sintoma#Sintoma"/>
+        <rdfs:label>Dengue</rdfs:label>
+    </owl:Class>
+
+</rdf:RDF>
