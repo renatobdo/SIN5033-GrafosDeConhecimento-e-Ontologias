@@ -5,5 +5,5 @@ Repositório para a disciplina SIN5033 da EACH
 Python instalado  
 PIP
 
-# Vídeo DEMONSTRAÇÂO
+# Vídeo DEMONSTRAÇÃO Ontology Matching
 https://youtu.be/PRbrt2dY-tc 
